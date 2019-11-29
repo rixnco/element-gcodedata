@@ -14,10 +14,10 @@ not conflict with other ChiliPeppr widgets.
 | ID                    | inline:com-chilipeppr-elem-gcodedata |
 | Name                  | Element / Gcode Data |
 | Description           | List of Gcode commands from Wikipedia |
-| chilipeppr.load() URL | http://raw.githubusercontent.com/chilipeppr/element-gcodedata/master/auto-generated-widget.html |
-| Edit URL              | http://ide.c9.io/chilipeppr/element-gcodedata |
-| Github URL            | http://github.com/chilipeppr/element-gcodedata |
-| Test URL              | https://preview.c9users.io/chilipeppr/element-gcodedata/widget.html |
+| chilipeppr.load() URL | http://raw.githubusercontent.com/rixnco/element-gcodedata/master/auto-generated-widget.html |
+| Edit URL              | http://ide.c9.io/undefined/undefined |
+| Github URL            | http://github.com/rixnco/element-gcodedata |
+| Test URL              | https://preview.c9users.io/undefined/undefined/widget.html |
 
 ## Example Code for chilipeppr.load() Statement
 
@@ -33,7 +33,7 @@ $("body").append('<' + 'div id="myDivInline:ElemGcodedata"><' + '/div>');
 
 chilipeppr.load(
   "#myDivInline:ElemGcodedata",
-  "http://raw.githubusercontent.com/chilipeppr/element-gcodedata/master/auto-generated-widget.html",
+  "http://raw.githubusercontent.com/rixnco/element-gcodedata/master/auto-generated-widget.html",
   function() {
     // Callback after widget loaded into #myDivInline:ElemGcodedata
     // Now use require.js to get reference to instantiated widget
@@ -132,7 +132,7 @@ The table below shows, in order, the methods and properties inside the widget/el
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>id</td><td>string</td><td>"inline:com-chilipeppr-elem-gcodedata"</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Element / Gcode Data"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"List of Gcode commands from Wikipedia"</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/chilipeppr/element-gcodedata/master/auto-generated-widget.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/chilipeppr/element-gcodedata"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/chilipeppr/element-gcodedata"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://element-gcodedata-chilipeppr.c9users.io/widget.html"</td></tr><tr valign="top"><td>publish</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>subscribe</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>init</td><td>function</td><td>function () </td></tr><tr valign="top"><td>gcode</td><td>object</td><td></td></tr>
+      <tr valign="top"><td>id</td><td>string</td><td>"inline:com-chilipeppr-elem-gcodedata"</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Element / Gcode Data"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"List of Gcode commands from Wikipedia"</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/rixnco/element-gcodedata/master/auto-generated-widget.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/undefined/undefined"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/rixnco/element-gcodedata"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://undefined-undefined.c9users.io/widget.html"</td></tr><tr valign="top"><td>publish</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>subscribe</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>init</td><td>function</td><td>function () </td></tr><tr valign="top"><td>gcode</td><td>object</td><td></td></tr>
       </tbody>
   </table>
 
